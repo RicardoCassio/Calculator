@@ -10,22 +10,33 @@ body {
 
 section {
     background-color: rgba(144, 245, 248, 0.9);
-    width: 45rem;
+    width: 46rem;
     margin: 50px auto 0 auto;
-    padding: 8px;
     border-radius: 8px;
 }
 
 .display {
-    width: 100%;
+    width: 99%;
     height: 45px;
     border-radius: 4px;
     text-align: right;
     font-size: 1.5rem;
+    margin: 10px 4px 10px 4px;
 }
 
-section table {
-    width: 100%;
+.containerButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 99%;
+    margin: 4px;
+}
+
+.containerButtons button {
+    flex: 30%;
+    margin: 2px;
+    height: 3.5rem;
+    cursor: pointer;
 }
 
 .btn {

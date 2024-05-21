@@ -10,48 +10,36 @@
 <body>
 
     <section>
-        <table>
-            <tbody>
-                <tr><input class="display"></tr>
+        <form>
+            <input class="display" aria-label="Display da calculadora" readonly />
+        </form>
+        <div class="containerButtons">
+            <button class="btn btn-clear" aria-label="Limpar">C</button>
+            <button class="btn btn-num" aria-label="Abrir parênteses">(</button>
+            <button class="btn btn-num" aria-label="Fechar parênteses">)</button>
+            <button class="btn btn-num" aria-label="Divisão">/</button>
 
-                <tr>
-                    <td><button class="btn btn-clear">C</button></td>
-                    <td><button class="btn btn-num">(</button></td>
-                    <td><button class="btn btn-num">)</button></td>
-                    <td><button class="btn btn-num">/</button></td>
-                </tr>
+            <button class="btn btn-num" aria-label="Sete">7</button>
+            <button class="btn btn-num" aria-label="Oito">8</button>
+            <button class="btn btn-num" aria-label="Nove">9</button>
+            <button class="btn btn-num" aria-label="Multiplicação">*</button>
 
-                <tr>
-                    <td><button class="btn btn-num">7</button></td>
-                    <td><button class="btn btn-num">8</button></td>
-                    <td><button class="btn btn-num">9</button></td>
-                    <td><button class="btn btn-num">*</button></td>
-                </tr>
+            <button class="btn btn-num" aria-label="Quatro">4</button>
+            <button class="btn btn-num" aria-label="Cinco">5</button>
+            <button class="btn btn-num" aria-label="Seis">6</button>
+            <button class="btn btn-num" aria-label="Adição">+</button>
 
-                <tr>
-                    <td><button class="btn btn-num">4</button></td>
-                    <td><button class="btn btn-num">5</button></td>
-                    <td><button class="btn btn-num">6</button></td>
-                    <td><button class="btn btn-num">+</button></td>
-                </tr>
+            <button class="btn btn-num" aria-label="Um">1</button>
+            <button class="btn btn-num" aria-label="Dois">2</button>
+            <button class="btn btn-num" aria-label="Três">3</button>
+            <button class="btn btn-num" aria-label="Subtração">-</button>
 
-                <tr>
-                    <td><button class="btn btn-num">1</button></td>
-                    <td><button class="btn btn-num">2</button></td>
-                    <td><button class="btn btn-num">3</button></td>
-                    <td><button class="btn btn-num">-</button></td>
-                </tr>
-
-                <tr>
-                    <td><button class="btn btn-num">.</button></td>
-                    <td><button class="btn btn-num">0</button></td>
-                    <td><button class="btn btn-del">&laquo</button></td>
-                    <td><button class="btn btn-eq">=</button></td>
-                </tr>
-            </tbody>
-        </table>
+            <button class="btn btn-num" aria-label="Ponto decimal">.</button>
+            <button class="btn btn-num" aria-label="Zero">0</button>
+            <button class="btn btn-del" aria-label="Apagar">&laquo;</button>
+            <button class="btn btn-eq" aria-label="Igual">=</button>
+        </div>
     </section>
-    
 
     <script src="js/script.js"></script>
 </body>
