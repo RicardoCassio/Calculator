@@ -33,7 +33,7 @@ section {
 }
 
 .containerButtons button {
-    flex: 30%;
+    flex: 22%;
     margin: 2px;
     height: 3.5rem;
     cursor: pointer;
